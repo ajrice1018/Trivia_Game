@@ -164,7 +164,7 @@ var game = {
     },
     reset: function(){
         game.currentQuestion = 0;
-        game.counter = 0;
+        game.counter = 30;
         game.correct = 0;
         game.incorrect = 0;
         game.unanswered = 0;
